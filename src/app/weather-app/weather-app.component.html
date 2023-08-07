@@ -1,0 +1,65 @@
+<body>
+  <p id="dat">{{date}}</p>
+  <div class="container">
+    <div *ngIf="weatherData">
+      <p id="se1"><mat-icon>public</mat-icon>{{ weatherData.timezone }}</p>
+      <p id="se"><mat-icon>waves</mat-icon>{{ weatherData.main.sea_level }}</p>
+    </div>
+    <h1 id="first">Weather App</h1>
+    <mat-form-field class="colour" appearance="fill">
+      <input id="myInput" matInput type="text" placeholder="Search for a City" [(ngModel)]="city">
+      <button class="my-button" mat-button matPrefix mat-icon-button (click)="getWeather()">
+        <mat-icon>search</mat-icon>
+      </button>
+    </mat-form-field>
+    <div class="weather" *ngIf="weatherData">
+
+      <mat-card id="wea" class="chani">
+        <mat-icon>device_thermostat</mat-icon>
+        <mat-card-content>Feels like: {{ getTemperatureInCelsius() }}</mat-card-content>
+      </mat-card>
+      <mat-card id="wea" class="chani">
+        <mat-icon>invert_colors</mat-icon>
+        <mat-card-content>Humidity: {{ weatherData.main.humidity }}%</mat-card-content>
+      </mat-card>
+      <mat-card id="wea" class="chan">
+        <mat-icon>air</mat-icon>
+        <mat-card-content>Wind: {{ weatherData.wind.speed }}m/s</mat-card-content>
+      </mat-card>
+      <mat-card id="wea" class="chan">
+        <mat-icon>timelapse</mat-icon>
+        <mat-card-content>Pressure: {{ weatherData.main.pressure }}hPa</mat-card-content>
+      </mat-card>
+      <p id="des">Weather: {{ weatherData.weather[0].description }}</p>
+      <p id="la">{{ weatherData.name }}</p>
+      <h1 id="cel">{{getTempInCelsius()}}</h1>
+      <h1 id="ce">max:{{getTempICelsius()}}</h1>
+      <h1 id="c">min:{{getTempCelsius()}}</h1>
+    </div>
+  </div>
+
+
+ 
+
+
+</body>
+
+<footer>
+  <div class="footer-content">
+    <div class="contact-info">
+      <h2>Contact Us</h2>
+      <p>Email: support@weatherapp.com</p>
+      <p>Phone: +1 (123) 456-7890</p>
+    </div>
+    <div class="social-links">
+      <h2>Follow Us</h2>
+      <ul>
+        <li><a href="#" target="_blank">Facebook</a></li>
+        <li><a href="#" target="_blank">Twitter</a></li>
+        <li><a href="#" target="_blank">Instagram</a></li>
+   
+      </ul>
+    </div>
+  </div>
+  <p class="footer-text">&copy; 2023 WeatherApp. All rights reserved.</p>
+</footer>

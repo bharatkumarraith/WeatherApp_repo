@@ -1,0 +1,103 @@
+/* Style the entire section */
+section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  /* Style the heading (h1) */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the description paragraph (p) */
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+
+  /* Style the entire section */
+section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  /* Style the heading (h1) */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the key features list (ul) */
+  ul {
+    list-style-type: none;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  /* Style the key features list items (li) */
+  li {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  /* Add a bullet style for list items (optional) */
+  li:before {
+    content: "\2022"; /* Bullet symbol (•) */
+    margin-right: 10px;
+  }
+
+
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact-info,
+  .social-links {
+    flex: 1;
+  }
+
+  .social-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .social-links ul li {
+    margin-bottom: 5px;
+  }
+  
+  .social-links ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-links ul li a:hover {
+    text-decoration: underline;
+  }
+
+  button{
+    position: relative;
+    left:700px;
+   font-size: 20px;
+   background-color: rgb(50, 50, 164);
+   color: white;
+  }
+  
+  img{
+    width: 300px;
+  }

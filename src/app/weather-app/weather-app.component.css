@@ -1,0 +1,194 @@
+
+
+  .container{
+
+    margin-left: 460px;
+    position: relative;
+    bottom: -100px;
+    display: block;
+    border-radius: 10px;
+    width: 600px;
+    height: 500px;
+    color: white;
+    background-color: #6a8ec8;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .weather{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+   position: relative;
+   bottom: -120px;
+   left: 50px;
+   padding-bottom: 20px;
+    
+  }
+
+  #first{
+    color: black;
+  }
+
+  .my-button {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+  }
+
+
+  body {
+    background-color: rgba(44, 44, 138, 0.5);
+    margin: 0;
+    padding: 0;
+  }
+
+ .colour{
+position: relative;
+right: -150px;
+bottom: -30px;
+
+
+ }
+
+
+#first{
+  position: relative;
+  bottom: -20px;
+  font-family: Gentona;
+  font-weight: bold;
+  color: azure;
+  font-size: 30px;
+}
+
+
+#wea{
+  color: black;
+  width: 180px;
+  background-color: #cfdaec;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#des{
+  position: relative;
+  top:-270px;
+  left:-30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  color: rgb(25, 21, 21);
+  font-weight: bolder;
+  background-color: auto;
+}
+
+#la{
+  position: relative;
+  top:-200px;
+  left:-220px;
+  font-weight: bold;
+  font-size: 26px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#dat{
+  float: right;
+  position: relative;
+ left:-550px;
+  bottom: -40px;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.chan{
+  position: relative;
+  bottom: -80px;
+}
+
+#se{
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
+}
+#se1{
+  float: left;
+}
+
+.chani{
+  position: relative;
+  bottom: -50px;
+}
+
+#cel{
+  position: relative;
+  top: -180px;
+  right: -80px;
+  font-size: 37px;
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+
+#ce{
+  font-size: 15px;
+  position: relative;
+  top:-150px;
+  left:-145px;
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+
+#c{
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-size: 15px;
+  position: relative;
+  top:-200px;
+}
+
+#myInput::placeholder {
+  color: black;
+  font-weight: 470;
+  
+  
+}
+
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-info,
+.social-links {
+  flex: 1;
+}
+
+.social-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-links ul li {
+  margin-bottom: 5px;
+}
+
+.social-links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-links ul li a:hover {
+  text-decoration: underline;
+}
