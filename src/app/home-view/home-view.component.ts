@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home-view',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class HomeViewComponent {
 
+  constructor(private rou:Router){}
+
+
+  get()
+  {
+this.rou.navigateByUrl('/we')
+  }
 }

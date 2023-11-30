@@ -22,6 +22,7 @@ import { HomeViewComponent } from './home-view/home-view.component';
   ],
   imports: [
     BrowserModule,
+   
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
@@ -29,6 +30,7 @@ import { HomeViewComponent } from './home-view/home-view.component';
     FormsModule,
     MatCardModule,
     MatIconModule,
+  
    
   
   ],

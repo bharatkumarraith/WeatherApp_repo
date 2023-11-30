@@ -1,7 +1,7 @@
 <body>
   <p id="dat">{{date}}</p>
   <div class="container">
-    <div *ngIf="weatherData">
+    <div id="bars" *ngIf="weatherData">
       <p id="se1"><mat-icon>public</mat-icon>{{ weatherData.timezone }}</p>
       <p id="se"><mat-icon>waves</mat-icon>{{ weatherData.main.sea_level }}</p>
     </div>

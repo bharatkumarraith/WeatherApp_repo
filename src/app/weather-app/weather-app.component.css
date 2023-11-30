@@ -193,52 +193,64 @@ footer {
   text-decoration: underline;
 }
 
+@media only screen and (max-width: 600px)
+{
+  .container{
+position: relative;
+left: -460px;
+
+    width: 370px;
+    height: 500px;
+   
+  }
+
+  #first{
+    position: relative;
+    top:-40px;
+  }
+
+  .colour{
+    position: relative;
+    top:-30px;
+    left:15px;
+  }
+
+  .weather{
+    position: relative;
+    left: 4px;
+  
+  }
+  #bars{
+    position: relative;
+    top:-30px;
+  }
+
+  #des{
+   margin-right: -240px;
+  }
+
+  #la{
+    margin-right: -240px;
+  }
+  #ce{
+    margin-right: -230px;
+  }
+
+  #dat{
+  position: relative;
+  left:10px
+  }
 
 
-@media screen and (max-width: 850px) {
   .footer-content {
     flex-direction: column;
   }
 
-.container{
- position: relative;
- left:-458px;
- width: 400px;
- height: 600px;
+  
 }
 
-#dat{
-  position: relative;
-  left: 18px;
-}
-.colour{
-  position: relative;
-  left:-10px;
-  top:-40px;
-}
-#first{
-  position: relative;
-  top:-40px;
-  left:-10px;
+
+@media only screen and (min-width: 768px){
+  
 }
 
-.weather{
-  position: relative;
-  left:-1px;
-}
-#bars{
-  position: relative;
-  top:-30px;
-}
-
-#la{
-margin-right: -220px;
-}
-#des{
-  margin-right: -220px;
-}
-
-#ce{
-  margin-right: -190px;
-}
-}
