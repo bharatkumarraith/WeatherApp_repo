@@ -7,9 +7,9 @@
     </div>
     <h1 id="first">Weather App</h1>
     <mat-form-field class="colour" appearance="fill">
-      <input id="myInput" matInput type="text" placeholder="Search for a City" [(ngModel)]="city">
+      <input id="myInput" matInput type="text" placeholder="*Enter City Name" [(ngModel)]="city">
       <button class="my-button" mat-button matPrefix mat-icon-button (click)="getWeather()">
-        <mat-icon>search</mat-icon>
+        <mat-icon class="mat"style="border: 2px solid blue;position: relative;right: -190px;">search</mat-icon>
       </button>
     </mat-form-field>
     <div class="weather" *ngIf="weatherData">

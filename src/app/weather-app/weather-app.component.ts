@@ -21,6 +21,7 @@ date:any=new Date();
           console.log(data);
         },
         (error) => {
+          alert("Incorrect credentials or city not found.")
           console.error(error);
         }
       );
